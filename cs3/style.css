@@ -1,0 +1,41 @@
+:root{
+    --bg : #333;
+    --aside-bg : #f4f4f4;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: var(--bg);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+aside {
+    box-sizing: border-box;
+    background-color: var(--aside-bg);
+    float: left;
+    width: 20%;
+    height: 100vh;
+    padding: 20px;
+}
+
+main {
+    box-sizing: border-box;
+    margin-left: 20%;
+    padding: 20px;
+}
+
+footer {
+    background-color: var(--bg);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
