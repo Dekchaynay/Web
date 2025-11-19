@@ -25,6 +25,7 @@ aside {
 }
 
 main {
+    box-sizing: border-box;
     margin-left: 20%;
     padding: 20px;
 }
